@@ -1,0 +1,25 @@
+<p style="text-align: right;">&rarr; <ac:link><ri:page ri:content-title="Product Backlog" /><ac:plain-text-link-body><![CDATA[see: Theory Product Backlog]]></ac:plain-text-link-body></ac:link></p>
+<p><ac:placeholder>Product Backlog is an ordered list of requirements, which have to be achieved. The Product Backlog is never complete, but&nbsp;dynamic; it constantly changes to identify what the product needs to be appropriate, competitive, and useful.</ac:placeholder></p>
+<table class="wrapped"><colgroup><col /><col /><col /><col /><col /><col /><col /><col /><col /></colgroup>
+<tbody>
+    <tr>
+        <th>ID</th>
+        <th>Theme</th>
+        <th>Who needs it?</th>
+        <th>What is needed?</th>
+        <th>Business Goal</th>
+        <th>Acceptance Criteria</th>
+        <th>Priority</th>
+        <th>Status</th>
+        <th>Sprint</th></tr>
+    <tr>
+        <td><ac:placeholder>1</ac:placeholder></td>
+        <td><ac:placeholder>Topic</ac:placeholder></td>
+        <td><ac:placeholder>Customer/User</ac:placeholder></td>
+        <td><ac:placeholder>Ideas for the product: all requirements, features, functions, enhancements also changes to be made to the product in future releases</ac:placeholder></td>
+        <td><ac:placeholder>Describe requirements from the perspective of a user utilizing everday language</ac:placeholder></td>
+        <td><ac:placeholder>Acceptance Criteria are requirements that have to be met for an item to accepted</ac:placeholder></td>
+        <td><ac:placeholder>Required</ac:placeholder></td>
+        <td><ac:placeholder>Open / Doing /Done</ac:placeholder></td>
+        <td><ac:placeholder>15/2017</ac:placeholder></td></tr></tbody></table>
+<p class="auto-cursor-target"><br /></p>

@@ -1,0 +1,13 @@
+<ac:layout>
+    <ac:layout-section ac:type="two_equal">
+        <ac:layout-cell>
+            <ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="fc365dd8-588a-4135-b807-34e4d3519609"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Team</ac:parameter><ac:rich-text-body>
+            </ac:rich-text-body></ac:structured-macro>
+
+        </ac:layout-cell>
+        <ac:layout-cell>
+            <ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="7b400e03-3878-4640-a0c8-9a6d2a5813a5"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Why</ac:parameter><ac:rich-text-body>
+            </ac:rich-text-body></ac:structured-macro>
+        </ac:layout-cell>
+    </ac:layout-section>
+</ac:layout>

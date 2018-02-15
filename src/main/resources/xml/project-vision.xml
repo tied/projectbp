@@ -1,0 +1,39 @@
+<p class="auto-cursor-target" style="text-align: right;">&rarr; <ac:link><ri:page ri:content-title="Vision Canvas" /><ac:plain-text-link-body><![CDATA[see: Theory Vision Canvas]]></ac:plain-text-link-body></ac:link></p>
+<ac:structured-macro ac:name="info" ac:schema-version="1" ac:macro-id="3102c31a-8be7-45c0-8009-2b2a4e21f850"><ac:parameter ac:name="title">Vision Statement</ac:parameter><ac:rich-text-body>
+    <p><ac:placeholder>What is your purpose for creating the product&ldquo;? Which positive changes should it bring about? (challenging 1-2 sentences)</ac:placeholder></p></ac:rich-text-body></ac:structured-macro>
+<p class="auto-cursor-target"><br /></p>
+<table class="wrapped relative-table" style="width: 100%;"><colgroup><col /><col /><col /><col /></colgroup>
+<tbody>
+    <tr>
+        <th>
+            <div class="content-wrapper">
+                <p>Target Group<ac:structured-macro ac:name="font-awesome-icon-macro" ac:schema-version="1" ac:macro-id="3bda6896-2075-4850-8cea-1fa95ece1ccf"><ac:parameter ac:name="size">32px</ac:parameter><ac:parameter ac:name="icon">fa-users</ac:parameter></ac:structured-macro></p></div></th>
+        <th>
+            <div class="content-wrapper">
+                <p>Needs<ac:structured-macro ac:name="font-awesome-icon-macro" ac:schema-version="1" ac:macro-id="2fb1e20f-ed21-4cdf-82f4-c3a54588c0d9"><ac:parameter ac:name="size">32px</ac:parameter><ac:parameter ac:name="icon">fa-heart</ac:parameter></ac:structured-macro></p></div></th>
+        <th>
+            <div class="content-wrapper">
+                <p>Product<ac:structured-macro ac:name="font-awesome-icon-macro" ac:schema-version="1" ac:macro-id="602a9a6b-8599-466b-affc-94e009f72ba0"><ac:parameter ac:name="size">32px</ac:parameter><ac:parameter ac:name="icon">fa-gift</ac:parameter></ac:structured-macro></p></div></th>
+        <th>
+            <div class="content-wrapper">
+                <p>Value<ac:structured-macro ac:name="font-awesome-icon-macro" ac:schema-version="1" ac:macro-id="fe44b202-79b2-423b-a1ee-3c8598def234"><ac:parameter ac:name="size">32px</ac:parameter><ac:parameter ac:name="icon">fa-usd</ac:parameter></ac:structured-macro></p></div></th>
+    </tr>
+    <tr>
+        <td>
+            <ac:placeholder>Who are the target users and customers?</ac:placeholder>
+        </td>
+        <td>
+            <ac:placeholder>What problem does the product/service solve?</ac:placeholder>
+            <ac:placeholder>What is missing currently?</ac:placeholder>
+        </td>
+        <td>
+            <ac:placeholder>How would you describe the product/service?</ac:placeholder>
+            <ac:placeholder>What are the three to five key features of the product?</ac:placeholder>
+            <ac:placeholder>Which benefit does it provide for the Target Group?</ac:placeholder>
+        </td>
+        <td>
+            <ac:placeholder>Why is the product going to benefit the company?</ac:placeholder>
+        </td>
+    </tr>
+</tbody>
+</table>

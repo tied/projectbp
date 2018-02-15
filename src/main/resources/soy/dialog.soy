@@ -1,0 +1,20 @@
+{namespace Confluence.SpaceBlueprints.Project}
+/**
+ * Dialog form template
+ *
+ * @param atlToken the XSRF token to send with the form
+ * @param? fieldErrors the map of errors to display keyed by field name
+ * @param? name initial value for the name field
+ * @param? key initial value for the key field
+ */
+{template .dialogForm}
+    <form action="#" method="post" id="decisions-form" class="common-space-form aui">
+        {call Confluence.Templates.Blueprints.CreateSpace.createSpaceFormFields}
+            {param showSpacePermission: true /}
+            {param fieldErrors: $fieldErrors /}
+            {param name: $name /}
+            {param key: $key /}
+        {/call}
+        <input type="hidden" name="atl_token" value="{$atlToken}" />
+    </form>
+{/template}
