@@ -9,7 +9,7 @@
                 <th><br /></th>
                 <th>&nbsp;Name</th>
                 <th>Position</th>
-                <th>Responsibility</th></tr>
+                <th><at:i18n at:key="confluence.team.aboutus.responsibility.table"/></th></tr>
             <tr>
                 <td>
                     <div class="content-wrapper">
