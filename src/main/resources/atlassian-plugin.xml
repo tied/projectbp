@@ -69,6 +69,20 @@
         <param name='blueprintKey' value='vision-blueprint'/>
     </web-item>
     <blueprint key="vision-blueprint" name="Vision Blueprint" i18n-name-key='confluence.view.result.blueprint.vision.name' create-result="edit" content-template-key='space-project-vision-template' index-key="vision_canvas" disable-index-page="true"/>
+    <!-- Blueprint About us-->
+    <content-template key='space-team-aboutus-template' i18n-name-key='confluence.blueprints.space.example.aboutus.name'>
+        <description key='confluence.blueprints.space.example.aboutus.desc'/>
+        <resource name='template' type='download' location='/xml/team-aboutus.xml'/>
+    </content-template>
+
+    <web-item key='aboutus-blueprint-item' i18n-name-key='confluence.view.result.blueprint.aboutus.name'
+              section='system.create.dialog/content'>
+        <description key='confluence.view.result.blueprint.aboutus.description'/>
+        <resource name='icon' type='download'
+                  location='/images/aboutus.png'/>
+        <param name='blueprintKey' value='aboutus-blueprint'/>
+    </web-item>
+    <blueprint key="vision-blueprint" name="Vision Blueprint" i18n-name-key='confluence.view.result.blueprint.vision.name' create-result="edit" content-template-key='space-project-vision-template' index-key="vision_canvas" disable-index-page="true"/>
     <!-- Project Space Blueprint-->
     <web-item key='project-space-blueprint-item' i18n-name-key='confluence.blueprints.space.project.name'
               section='system.create.space.dialog/content'>
@@ -107,9 +121,12 @@
     </web-item>
 
     <space-blueprint key='team-space-blueprint' i18n-name-key='confluence.blueprints.space.team.name' category='teams'>
-        <content-template ref='team-space-homepage-template' />
+        <content-template ref='team-space-homepage-template'>
+            <content-template ref='space-team-aboutus-template' />
+        </content-template>
         <promoted-blueprints>
             <blueprint ref="com.atlassian.confluence.plugins.confluence-create-content-plugin:create-blank-page"/>
+            <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:aboutus-blueprint"/>
         </promoted-blueprints>
         <dialog-wizard key='team-space-blueprint-wizard'>
             <dialog-page id='teamSpaceId'

@@ -1,0 +1,23 @@
+
+<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="e27e725b-c5f3-41f6-85f0-36ae8a93cf7a"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Why</ac:parameter><ac:rich-text-body>
+    <p class="auto-cursor-target"><ac:placeholder>What's the purpose of this team or department? Why do we exist and how do we succeed? </ac:placeholder></p></ac:rich-text-body></ac:structured-macro>
+<p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="7885e840-4d48-4f42-94c7-cdbae309ad51"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Team</ac:parameter><ac:rich-text-body>
+    <p class="auto-cursor-target"><br /></p>
+    <table class="relative-table wrapped" style="width: 99.889%;"><colgroup><col style="width: 8.3426%;" /><col style="width: 11.8409%;" /><col style="width: 26.9967%;" /><col style="width: 52.8142%;" /></colgroup>
+        <tbody>
+            <tr>
+                <th><br /></th>
+                <th>&nbsp;Name</th>
+                <th>Position</th>
+                <th>Responsibility</th></tr>
+            <tr>
+                <td>
+                    <div class="content-wrapper">
+                        <p><ac:placeholder>Add Macro - Profile Picture </ac:placeholder></p></div></td>
+                <td>
+                    <div class="content-wrapper">
+                        <p><ac:placeholder>Add the user with @mentions </ac:placeholder></p></div></td>
+                <td><ac:placeholder>Add the users position in our company </ac:placeholder></td>
+                <td><ac:placeholder>What's her or his concrete responsibility in this team? </ac:placeholder></td></tr></tbody></table>
+    <p class="auto-cursor-target"><br /></p></ac:rich-text-body></ac:structured-macro>
+<p class="auto-cursor-target"><br /></p>
