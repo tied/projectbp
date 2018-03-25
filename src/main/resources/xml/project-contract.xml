@@ -1,0 +1,24 @@
+<ac:layout><ac:layout-section ac:type="single"><ac:layout-cell>
+    <p class="auto-cursor-target"><ac:placeholder>Project Contract for Projects with rather a sequential approach</ac:placeholder></p>
+    <ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="632a8ecb-cab5-4520-8868-6866003c58a8"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="borderWidth">1</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Business Goals  / Scope (and not in Scope) </ac:parameter><ac:rich-text-body>
+        <ac:placeholder><ul>
+        <li>What is the purpose of or reason for this project?</li>
+        <li>What are the objectives specified?</li>
+        <li>What are you want to achieve?</li>
+        <li>What are the criteria for success?</li>
+        <li>What is the planning interval?</li></ul></ac:placeholder>
+    </ac:rich-text-body></ac:structured-macro>
+    <p class="auto-cursor-target"><br /></p></ac:layout-cell></ac:layout-section><ac:layout-section ac:type="two_equal"><ac:layout-cell>
+    <p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="9ccc8244-af66-41a6-bcce-2ee677759231"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="borderWidth">1</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Project Objectives (SMART)</ac:parameter><ac:rich-text-body>
+    <p><ac:placeholder>Objective incl. Definition of Done</ac:placeholder></p></ac:rich-text-body></ac:structured-macro>
+    <p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="59f54d99-d2d2-4c4d-9268-884c968d7082"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="borderWidth">1</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Budget</ac:parameter><ac:rich-text-body>
+    <p><br /></p></ac:rich-text-body></ac:structured-macro>
+    <p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="a362dda3-feca-4f78-8b92-25f5b7350984"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="borderWidth">1</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Basic Information</ac:parameter><ac:rich-text-body>
+    <p>Start Date:</p>
+    <p>Estimated End Date:</p>
+    <p>Agile Method:</p></ac:rich-text-body></ac:structured-macro>
+    <p class="auto-cursor-target"><br /></p></ac:layout-cell><ac:layout-cell>
+    <p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="40f1cdbe-123c-4c36-a835-ff959008ab02"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="borderWidth">1</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Development Team</ac:parameter><ac:rich-text-body><br /></ac:rich-text-body></ac:structured-macro>
+    <p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="3186ee8d-7a73-4dcb-bab1-9c05daad724c"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="borderWidth">1</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Agile Coach (optional)</ac:parameter><ac:rich-text-body><br /></ac:rich-text-body></ac:structured-macro>
+    <p class="auto-cursor-target"><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="6a184a7b-0522-4964-9384-3ce71901b7d0"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="borderWidth">1</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Product Owner (Initiator)</ac:parameter><ac:rich-text-body><br /></ac:rich-text-body></ac:structured-macro>
+    <p class="auto-cursor-target"><br /></p></ac:layout-cell></ac:layout-section></ac:layout>

@@ -16,5 +16,14 @@
             {param key: $key /}
         {/call}
         <input type="hidden" name="atl_token" value="{$atlToken}" />
+        <input type="hidden" name="noPageTitlePrefix" value="true" />
     </form>
+{/template}
+
+/**
+    * Let's-get-started page for the Create dialog
+    */
+{template .dialogFormTeam}
+    <h2>{getText('my.blueprint.letsgetstarted.title')}</h2>
+    <p>{getText('my.blueprint.letsgetstarted.content')}</p>
 {/template}

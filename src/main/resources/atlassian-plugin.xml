@@ -55,6 +55,32 @@
         <param name='blueprintKey' value='sprint-blueprint'/>
     </web-item>
     <blueprint key="sprint-blueprint" name="Sprint Blueprint" i18n-name-key='confluence.view.result.blueprint.sprint.name' create-result="edit" content-template-key='space-project-sprint-template' index-key="sprint_planning" />
+    <!-- Blueprint Project Contract-->
+    <content-template key='space-project-project-contract-template' i18n-name-key='confluence.blueprints.space.example.project-contract.name'>
+        <description key='confluence.blueprints.space.example.project-contract.desc'/>
+        <resource name='template' type='download' location='/xml/project-contract.xml'/>
+    </content-template>
+    <web-item key='project-contract-blueprint-item' i18n-name-key='confluence.view.result.blueprint.project-contract.name'
+              section='system.create.dialog/content'>
+        <description key='confluence.view.result.blueprint.project-contract.description'/>
+        <resource name='icon' type='download'
+                  location='/images/contract.png'/>
+        <param name='blueprintKey' value='project-contract-blueprint'/>
+    </web-item>
+    <blueprint key="project-contract-blueprint" name="Project Contract Blueprint" i18n-name-key='confluence.view.result.blueprint.project-contract.name' create-result="edit" content-template-key='space-project-project-contract-template' index-key="project-contract" disable-index-page="true"/>
+    <!-- Blueprint Project Lessons Learnt-->
+    <content-template key='space-project-project-lessons-learnt-template' i18n-name-key='confluence.blueprints.space.example.project-lessons-learnt.name'>
+        <description key='confluence.blueprints.space.example.project-lessons-learnt.desc'/>
+        <resource name='template' type='download' location='/xml/project-lessons-learnt.xml'/>
+    </content-template>
+    <web-item key='project-lessons-learnt-blueprint-item' i18n-name-key='confluence.view.result.blueprint.project-lessons-learnt.name'
+              section='system.create.dialog/content'>
+        <description key='confluence.view.result.blueprint.project-lessons-learnt.description'/>
+        <resource name='icon' type='download'
+                  location='/images/lessons_learnt.png'/>
+        <param name='blueprintKey' value='project-lessons-learnt-blueprint'/>
+    </web-item>
+    <blueprint key="project-lessons-learnt-blueprint" name="Project Lessons Learnt Blueprint" i18n-name-key='confluence.view.result.blueprint.project-lessons-learnt.name' create-result="edit" content-template-key='space-project-project-lessons-learnt-template' index-key="project-lessons-learnt" disable-index-page="true"/>
     <!-- Blueprint Visioncanvas-->
     <content-template key='space-project-vision-template' i18n-name-key='confluence.blueprints.space.example.vision.name'>
         <description key='confluence.blueprints.space.example.vision.desc'/>
@@ -82,7 +108,7 @@
                   location='/images/aboutus.png'/>
         <param name='blueprintKey' value='aboutus-blueprint'/>
     </web-item>
-    <blueprint key="aboutus-blueprint" name="About us Blueprint" i18n-name-key='confluence.view.result.blueprint.aboutus.name' create-result="edit" content-template-key='space-team-aboutus-template' index-key="about_us" disable-index-page="true"/>
+    <blueprint key="aboutus-blueprint" name="About us Blueprint" i18n-name-key='confluence.view.result.blueprint.aboutus.name' create-result="edit" content-template-key='space-team-aboutus-template' index-key="about_us" disable-index-page="true" how-to-use-template="Confluence.SpaceBlueprints.Project.aboutus" />
     <!-- Project Space Blueprint-->
     <web-item key='project-space-blueprint-item' i18n-name-key='confluence.blueprints.space.project.name'
               section='system.create.space.dialog/content'>
@@ -97,6 +123,9 @@
             <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:vision-blueprint"/>
             <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:sprint-blueprint"/>
             <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:backlog-blueprint"/>
+            <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:project-contract-blueprint"/>
+            <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:project-lessons-learnt-blueprint"/>
+
             <blueprint ref="com.atlassian.confluence.plugins.confluence-create-content-plugin:create-blank-page"/>
         </promoted-blueprints>
         <dialog-wizard key='project-space-blueprint-wizard'>
@@ -114,7 +143,7 @@
     </content-template>
     <!-- Team Space Blueprint-->
     <web-item key='team-space-blueprint-item' i18n-name-key='confluence.blueprints.space.team.name'
-              section='system.create.space.dialog/content'>
+              section='system.create.space.dialog/content' >
         <description key='confluence.blueprints.space.team.description'/>
         <resource name='icon' type='download' location='/images/myblueprint.png' />
         <param name='blueprintKey' value='team-space-blueprint'/>
@@ -131,6 +160,11 @@
         <dialog-wizard key='team-space-blueprint-wizard'>
             <dialog-page id='teamSpaceId'
                          template-key='Confluence.SpaceBlueprints.Project.dialogForm'
+                         title-key='confluence.blueprints.space.team.dialog.create.title'
+                         description-header-key='confluence.blueprints.space.team.dialog.create.heading'
+                         description-content-key='confluence.blueprints.space.team.dialog.create.description'/>
+            <dialog-page id='teamSpaceId2'
+                         template-key='Confluence.SpaceBlueprints.Project.dialogFormTeam'
                          title-key='confluence.blueprints.space.team.dialog.create.title'
                          description-header-key='confluence.blueprints.space.team.dialog.create.heading'
                          description-content-key='confluence.blueprints.space.team.dialog.create.description'
