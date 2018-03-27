@@ -7,7 +7,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.bahlsen.plugins.confluence.projectbp</groupId>
     <artifactId>projectbp</artifactId>
-    <version>1.1.1</version>
+    <version>1.2.0</version>
 
     <organization>
         <name>Manuel for Bahlsen</name>

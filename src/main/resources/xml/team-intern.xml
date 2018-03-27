@@ -1,0 +1,4 @@
+<ac:layout><ac:layout-section ac:type="two_equal"><ac:layout-cell>
+    <p><br /></p></ac:layout-cell><ac:layout-cell>
+    <p><br /></p><ac:structured-macro ac:name="panel" ac:schema-version="1" ac:macro-id="0938bd3f-2a33-4b4d-b16e-5aafba37d8c5"><ac:parameter ac:name="titleColor">white</ac:parameter><ac:parameter ac:name="titleBGColor">#003598</ac:parameter><ac:parameter ac:name="borderStyle">none</ac:parameter><ac:parameter ac:name="title">Pages</ac:parameter><ac:rich-text-body><ac:structured-macro ac:name="children" ac:schema-version="2" ac:macro-id="74f915f4-7d57-4128-abb4-eed2fc5dcb4d"><ac:parameter ac:name="all">true</ac:parameter><ac:parameter ac:name="depth">2</ac:parameter><ac:parameter ac:name="style">h4</ac:parameter></ac:structured-macro></ac:rich-text-body></ac:structured-macro>
+    <p class="auto-cursor-target"><br /></p></ac:layout-cell></ac:layout-section></ac:layout>

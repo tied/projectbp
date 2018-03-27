@@ -125,7 +125,6 @@
             <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:backlog-blueprint"/>
             <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:project-contract-blueprint"/>
             <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:project-lessons-learnt-blueprint"/>
-
             <blueprint ref="com.atlassian.confluence.plugins.confluence-create-content-plugin:create-blank-page"/>
         </promoted-blueprints>
         <dialog-wizard key='project-space-blueprint-wizard'>
@@ -152,6 +151,7 @@
     <space-blueprint key='team-space-blueprint' i18n-name-key='confluence.blueprints.space.team.name' category='teams'>
         <content-template ref='team-space-homepage-template'>
             <content-template ref='space-team-aboutus-template' />
+            <content-template ref='team-space-intern-template' />
         </content-template>
         <promoted-blueprints>
             <blueprint ref="com.atlassian.confluence.plugins.confluence-create-content-plugin:create-blank-page"/>
@@ -174,5 +174,9 @@
     <content-template key='team-space-homepage-template' i18n-name-key='confluence.blueprints.space.team.homepage.name'>
         <description key='confluence.blueprints.space.team.homepage.desc'/>
         <resource name='template' type='download' location='/xml/team-space.xml'/>
+    </content-template>
+    <content-template key='team-space-intern-template' i18n-name-key='confluence.blueprints.space.team.intern.name'>
+        <description key='confluence.blueprints.space.team.intern.desc'/>
+        <resource name='template' type='download' location='/xml/team-intern.xml'/>
     </content-template>
 </atlassian-plugin>
