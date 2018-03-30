@@ -162,13 +162,8 @@
                          template-key='Confluence.SpaceBlueprints.Project.dialogForm'
                          title-key='confluence.blueprints.space.team.dialog.create.title'
                          description-header-key='confluence.blueprints.space.team.dialog.create.heading'
-                         description-content-key='confluence.blueprints.space.team.dialog.create.description'/>
-            <dialog-page id='teamSpaceId2'
-                         template-key='Confluence.SpaceBlueprints.Project.dialogFormTeam'
-                         title-key='confluence.blueprints.space.team.dialog.create.title'
-                         description-header-key='confluence.blueprints.space.team.dialog.create.heading'
                          description-content-key='confluence.blueprints.space.team.dialog.create.description'
-                         last='true'/>
+                         last="true"/>
         </dialog-wizard>
     </space-blueprint>
     <content-template key='team-space-homepage-template' i18n-name-key='confluence.blueprints.space.team.homepage.name'>
