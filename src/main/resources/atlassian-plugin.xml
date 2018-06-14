@@ -108,7 +108,7 @@
                   location='/images/aboutus.png'/>
         <param name='blueprintKey' value='aboutus-blueprint'/>
     </web-item>
-    <blueprint key="aboutus-blueprint" name="About us Blueprint" i18n-name-key='confluence.view.result.blueprint.aboutus.name' create-result="edit" content-template-key='space-team-aboutus-template' index-key="about_us" disable-index-page="true" how-to-use-template="Confluence.SpaceBlueprints.Project.aboutus" />
+    <blueprint key="aboutus-blueprint" name="About us Blueprint" i18n-name-key='confluence.view.result.blueprint.aboutus.name' create-result="edit" content-template-key='space-team-aboutus-template' index-key="about_us" disable-index-page="true"/>
     <!-- Project Space Blueprint-->
     <web-item key='project-space-blueprint-item' i18n-name-key='confluence.blueprints.space.project.name'
               section='system.create.space.dialog/content'>
