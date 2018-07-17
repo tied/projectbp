@@ -174,4 +174,32 @@
         <description key='confluence.blueprints.space.team.intern.desc'/>
         <resource name='template' type='download' location='/xml/team-intern.xml'/>
     </content-template>
+
+    <!-- Innoproject Space Blueprint-->
+    <web-item key='innoproject-space-blueprint-item' i18n-name-key='confluence.blueprints.space.innoproject.name'
+              section='system.create.space.dialog/content'>
+        <description key='confluence.blueprints.space.innoproject.description'/>
+        <resource name='icon' type='download' location='/images/innovation.png' />
+        <param name='blueprintKey' value='innoproject-space-blueprint'/>
+    </web-item>
+
+    <space-blueprint key='innoproject-space-blueprint' i18n-name-key='confluence.blueprints.space.innoproject.name' category='projects'>
+        <content-template ref='innoproject-space-homepage-template' />
+        <promoted-blueprints>
+            <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:project-lessons-learnt-blueprint"/>
+            <blueprint ref="com.atlassian.confluence.plugins.confluence-create-content-plugin:create-blank-page"/>
+        </promoted-blueprints>
+        <dialog-wizard key='innoproject-space-blueprint-wizard'>
+            <dialog-page id='innoprojectSpaceId'
+                         template-key='Confluence.SpaceBlueprints.Project.dialogForm'
+                         title-key='confluence.blueprints.space.innoproject.dialog.create.title'
+                         description-header-key='confluence.blueprints.space.innoproject.dialog.create.heading'
+                         description-content-key='confluence.blueprints.space.innoproject.dialog.create.description'
+                         last='true'/>
+        </dialog-wizard>
+    </space-blueprint>
+    <content-template key='innoproject-space-homepage-template' i18n-name-key='confluence.blueprints.space.innoproject.homepage.name'>
+        <description key='confluence.blueprints.space.innoproject.homepage.desc'/>
+        <resource name='template' type='download' location='/xml/innoproject-space.xml'/>
+    </content-template>
 </atlassian-plugin>

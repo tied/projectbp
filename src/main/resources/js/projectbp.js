@@ -8,6 +8,10 @@ AJS.bind("blueprint.wizard-register.ready", function () {
         state.pageData.ContentPageTitle = state.pageData.name; //+ " " + state.pageData.spaceHomepageHeading;
         return Confluence.SpaceBlueprint.CommonWizardBindings.submit(e, state);
     }
+    function submitInnoSpace(e, state) {
+        state.pageData.ContentPageTitle = state.pageData.name; //+ " " + state.pageData.spaceHomepageHeading;
+        return Confluence.SpaceBlueprint.CommonWizardBindings.submit(e, state);
+    }
     function preRenderExampleSpace(e, state) {
         state.soyRenderContext['atlToken'] = AJS.Meta.get('atl-token');
         state.soyRenderContext['showSpacePermission'] = true;
@@ -21,5 +25,10 @@ AJS.bind("blueprint.wizard-register.ready", function () {
         wizard.on("submit.teamSpaceId", submitTeamSpace);
         wizard.on("pre-render.teamSpaceId", preRenderExampleSpace);
         wizard.on("post-render.teamSpaceId", Confluence.SpaceBlueprint.CommonWizardBindings.postRender);
+    });
+    Confluence.Blueprint.setWizard('com.bahlsen.plugins.confluence.projectbp.projectbp:innoproject-space-blueprint-item', function(wizard) {
+        wizard.on("submit.innoprojectSpaceId", submitInnoSpace);
+        wizard.on("pre-render.innoprojectSpaceId", preRenderExampleSpace);
+        wizard.on("post-render.innoprojectSpaceId", Confluence.SpaceBlueprint.CommonWizardBindings.postRender);
     });
 });
