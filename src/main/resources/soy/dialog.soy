@@ -24,6 +24,15 @@
     * Let's-get-started page for the Create dialog
     */
 {template .dialogFormTeam}
-    <h2>{getText('my.blueprint.letsgetstarted.title')}</h2>
-    <p>{getText('my.blueprint.letsgetstarted.content')}</p>
+    <form action="#" method="post" class="aui">
+        <fieldset>
+            <div class="field-group">
+                <label for="selectPage">Page</label>
+                <select id="selectPage" class="select" name="selectPage">
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                </select>
+            </div>
+        </fieldset>
+    </form>
 {/template}

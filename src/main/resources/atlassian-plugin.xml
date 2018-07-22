@@ -202,4 +202,29 @@
         <description key='confluence.blueprints.space.innoproject.homepage.desc'/>
         <resource name='template' type='download' location='/xml/innoproject-space.xml'/>
     </content-template>
+    <!-- Blueprint Innoproject -->
+    <content-template key='innoproject-template' i18n-name-key='confluence.blueprints.space.example.innoproject.name'>
+        <description key='confluence.blueprints.space.example.innoproject.desc'/>
+        <resource name='template' type='download' location='/xml/innoproject.xml'/>
+    </content-template>
+
+    <web-item key='innoproject-blueprint-item' i18n-name-key='confluence.view.result.blueprint.innoproject.name'
+              section='system.create.dialog/content'>
+        <description key='confluence.view.result.blueprint.innoproject.description'/>
+        <resource name='icon' type='download'
+                  location='/images/innovation.png'/>
+        <param name='blueprintKey' value='innoproject-blueprint'/>
+    </web-item>
+    <blueprint key="innoproject-blueprint" name="Innoproject Blueprint" i18n-name-key='confluence.view.result.blueprint.innoproject.name' content-template-key='innoproject-template' create-result="edit" index-key="innoproject" disable-index-page="true">
+        <content-template ref="innoproject-template" />
+        <dialog-wizard key="inno-wizard">
+            <dialog-page id="page1Id"
+                         template-key="Confluence.SpaceBlueprints.Project.dialogFormTeam"
+                         title-key="my.blueprint.wizard.page1.title"
+                         description-header-key="my.blueprint.wizard.page1.desc.header"
+                         description-content-key="my.blueprint.wizard.page1.desc.content"
+                         last="true"/>
+        </dialog-wizard>
+    </blueprint>
+
 </atlassian-plugin>
