@@ -203,11 +203,6 @@
         <resource name='template' type='download' location='/xml/innoproject-space.xml'/>
     </content-template>
     <!-- Blueprint Innoproject -->
-    <content-template key='innoproject-template' i18n-name-key='confluence.blueprints.space.example.innoproject.name'>
-        <description key='confluence.blueprints.space.example.innoproject.desc'/>
-        <resource name='template' type='download' location='/xml/innoproject.xml'/>
-    </content-template>
-
     <web-item key='innoproject-blueprint-item' i18n-name-key='confluence.view.result.blueprint.innoproject.name'
               section='system.create.dialog/content'>
         <description key='confluence.view.result.blueprint.innoproject.description'/>
@@ -226,5 +221,10 @@
                          last="true"/>
         </dialog-wizard>
     </blueprint>
+
+    <content-template key='innoproject-template' i18n-name-key='confluence.blueprints.space.example.innoproject.name'>
+        <description key='confluence.blueprints.space.example.innoproject.desc'/>
+        <resource name='template' type='download' location='/xml/innoproject.xml'/>
+    </content-template>
 
 </atlassian-plugin>
