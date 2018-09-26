@@ -117,7 +117,7 @@
         <param name='blueprintKey' value='project-space-blueprint'/>
     </web-item>
 
-    <space-blueprint key='project-space-blueprint' i18n-name-key='confluence.blueprints.space.project.name' category='projects'>
+    <space-blueprint key='project-space-blueprint' i18n-name-key='confluence.blueprints.space.project.name' category='projects' index-key="project">
         <content-template ref='project-space-homepage-template' />
         <promoted-blueprints>
             <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:vision-blueprint"/>
@@ -148,7 +148,7 @@
         <param name='blueprintKey' value='team-space-blueprint'/>
     </web-item>
 
-    <space-blueprint key='team-space-blueprint' i18n-name-key='confluence.blueprints.space.team.name' category='teams'>
+    <space-blueprint key='team-space-blueprint' i18n-name-key='confluence.blueprints.space.team.name' category='teams' index-key="team">
         <content-template ref='team-space-homepage-template'>
             <content-template ref='space-team-aboutus-template' />
             <content-template ref='team-space-intern-template' />
@@ -183,10 +183,15 @@
         <param name='blueprintKey' value='innoproject-space-blueprint'/>
     </web-item>
 
-    <space-blueprint key='innoproject-space-blueprint' i18n-name-key='confluence.blueprints.space.innoproject.name' category='projects'>
-        <content-template ref='innoproject-space-homepage-template' />
+    <space-blueprint key='innoproject-space-blueprint' i18n-name-key='confluence.blueprints.space.innoproject.name' category='projects' index-key="innovation_project">
+        <content-template ref='innoproject-space-homepage-template' >
+            <content-template ref='innoproject-space-templates-template' />
+            <content-template ref='innoproject-space-phase0-template' />
+            <content-template ref='innoproject-space-phase1-template' />
+            <content-template ref='innoproject-space-phase2-template' />
+            <content-template ref='innoproject-space-phase3-template' />
+        </content-template>
         <promoted-blueprints>
-            <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:project-lessons-learnt-blueprint"/>
             <blueprint ref="com.atlassian.confluence.plugins.confluence-create-content-plugin:create-blank-page"/>
         </promoted-blueprints>
         <dialog-wizard key='innoproject-space-blueprint-wizard'>
@@ -201,6 +206,26 @@
     <content-template key='innoproject-space-homepage-template' i18n-name-key='confluence.blueprints.space.innoproject.homepage.name'>
         <description key='confluence.blueprints.space.innoproject.homepage.desc'/>
         <resource name='template' type='download' location='/xml/innoproject-space.xml'/>
+    </content-template>
+    <content-template key='innoproject-space-templates-template' i18n-name-key='confluence.blueprints.space.innoproject.templates.name'>
+        <description key='confluence.blueprints.space.innoproject.templates.desc'/>
+        <resource name='template' type='download' location='/xml/innoproject-templates.xml'/>
+    </content-template>
+    <content-template key='innoproject-space-phase0-template' i18n-name-key='confluence.blueprints.space.innoproject.phase0.name'>
+        <description key='confluence.blueprints.space.innoproject.phase0.desc'/>
+        <resource name='template' type='download' location='/xml/innoproject-phase0.xml'/>
+    </content-template>
+    <content-template key='innoproject-space-phase1-template' i18n-name-key='confluence.blueprints.space.innoproject.phase1.name'>
+        <description key='confluence.blueprints.space.innoproject.phase1.desc'/>
+        <resource name='template' type='download' location='/xml/innoproject-phase1.xml'/>
+    </content-template>
+    <content-template key='innoproject-space-phase2-template' i18n-name-key='confluence.blueprints.space.innoproject.phase2.name'>
+        <description key='confluence.blueprints.space.innoproject.phase2.desc'/>
+        <resource name='template' type='download' location='/xml/innoproject-phase2.xml'/>
+    </content-template>
+    <content-template key='innoproject-space-phase3-template' i18n-name-key='confluence.blueprints.space.innoproject.phase3.name'>
+        <description key='confluence.blueprints.space.innoproject.phase3.desc'/>
+        <resource name='template' type='download' location='/xml/innoproject-phase3.xml'/>
     </content-template>
     <!-- Blueprint Innoproject -->
     <web-item key='innoproject-blueprint-item' i18n-name-key='confluence.view.result.blueprint.innoproject.name'
