@@ -9,7 +9,8 @@ AJS.bind("blueprint.wizard-register.ready", function () {
         return Confluence.SpaceBlueprint.CommonWizardBindings.submit(e, state);
     }
     function submitInnoSpace(e, state) {
-        state.pageData.ContentPageTitle = state.pageData.name; //+ " " + state.pageData.spaceHomepageHeading;
+        var dt = new Date();
+        state.pageData.ContentPageTitle = dt.getFullYear() + "/" + (dt.getMonth() + 1) + " - Innovationproject " + state.pageData.name; //+ " " + state.pageData.spaceHomepageHeading;
         return Confluence.SpaceBlueprint.CommonWizardBindings.submit(e, state);
     }
     function preRenderExampleSpace(e, state) {

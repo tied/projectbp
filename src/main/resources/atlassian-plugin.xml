@@ -5,11 +5,12 @@
         <vendor name="${project.organization.name}" url="${project.organization.url}" />
         <param name="plugin-icon">images/pluginIcon.png</param>
         <param name="plugin-logo">images/pluginLogo.png</param>
+        <component key="my-listener" class="com.bahlsen.plugins.confluence.projectbp.MyBlueprintListener" />
     </plugin-info>
 
     <!-- add our i18n resource -->
     <resource type="i18n" name="i18n" location="projectbp"/>
-    
+
     <!-- add our web resources -->
     <web-resource key="projectbp-resources" name="projectbp Web Resources">
         <transformation extension='soy'>
@@ -193,6 +194,7 @@
         </content-template>
         <promoted-blueprints>
             <blueprint ref="com.atlassian.confluence.plugins.confluence-create-content-plugin:create-blank-page"/>
+            <blueprint ref="com.bahlsen.plugins.confluence.projectbp.projectbp:innoproject-blueprint"/>
         </promoted-blueprints>
         <dialog-wizard key='innoproject-space-blueprint-wizard'>
             <dialog-page id='innoprojectSpaceId'
@@ -235,7 +237,7 @@
                   location='/images/innovation.png'/>
         <param name='blueprintKey' value='innoproject-blueprint'/>
     </web-item>
-    <blueprint key="innoproject-blueprint" name="Innoproject Blueprint" i18n-name-key='confluence.view.result.blueprint.innoproject.name' content-template-key='innoproject-template' create-result="edit" index-key="innoproject" disable-index-page="true">
+    <blueprint key="innoproject-blueprint" name="Innoproject Blueprint" i18n-name-key='confluence.view.result.blueprint.innoproject.name' content-template-key='innoproject-template' create-result="edit" index-key="inno_project" disable-index-page="true">
         <content-template ref="innoproject-template" />
         <dialog-wizard key="inno-wizard">
             <dialog-page id="page1Id"
